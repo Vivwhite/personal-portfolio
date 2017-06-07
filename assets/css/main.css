@@ -1,1 +1,47 @@
+h1 {
+	text-align: center;
+	font-family: 'Abril Fatface';
+
+}
+.boxed {
+	border: 10px solid black;
+	margin: 130px auto;
+	width: 300px;
+	display: block;
+  padding: 34px 0;
+}
+#enlarge {
+	font-weight: bold;
+	font-size: 38px;
+}
 /* custom styles */
+body {
+	position: center;
+	background: url("../imgs/whitemarble.jpg");
+}
+#mainmenu {
+	background-color: grey;
+	padding: 1px 0;
+}
+#mainmenu a {
+	margin-left: 20px;
+}
+nav a {
+	text-decoration: none;
+  color: black;
+	text-align: right;
+}
+li {
+	text-decoration: none;
+}
+img {
+	margin: 0 auto;
+	display: block;
+
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline-block;
+}
