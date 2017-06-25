@@ -1,0 +1,108 @@
+h1 {
+	text-align: center;
+	font-family: 'Abril Fatface';
+
+}
+.boxed {
+
+	margin: 0 auto;
+	width: 600px;
+	display: block;
+  padding: 40px ;
+	padding-top: 200px;
+
+}
+
+.developer {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#enlarge {
+	font-weight: bold;
+	font-size: 38px;
+	color: white;
+}
+/* custom styles */
+body {
+	position: center;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	height: 50px;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 18px;
+
+}
+
+
+.navbar-inverse {
+	background-color: rgba(0,0,0,0);
+	border-color: rgba(0,0,0,0.1);
+}
+
+
+
+ul {
+	color: black;
+}
+
+li {
+	text-decoration: none;
+}
+img {
+	margin: 0 auto;
+	display: block;
+}
+li a {
+	color: black;
+}
+
+.parallax {
+    /* The image used */
+    background: url("https://media.giphy.com/media/OWjsE4nW8PqSs/giphy.gif");
+
+    /* Set a specific height */
+    min-height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    // background-repeat: repeat;
+
+		opacity: 0.9;
+}
+
+.arrow {
+	padding-top: 200px;
+
+}
+
+.scroll {
+	width: 50px;
+}
+// second page
+.secondpage {
+	background-color: rgba(0,0,0,.1);
+	height:700px;
+	font-size:36px;
+	background: url("../imgs/gradientpic.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.skill-img {
+	margin-top: 100px;
+	margin-right: 100px;
+}
+
+// third page
+
+.thirdpage {
+	background: black;
+	height:700px;
+}
