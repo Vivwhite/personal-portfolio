@@ -1,6 +1,7 @@
 h1 {
 	text-align: center;
-	font-family: 'Abril Fatface';
+	font-family: 'Lato', sans-serif;
+
 
 }
 .boxed {
@@ -26,12 +27,12 @@ margin: auto;}
 
 .developer {
 	margin: 0 auto;
-	width: 100%;
+	width: 70%;
 }
 
 #enlarge {
 	font-weight: bold;
-	font-size: 38px;
+	font-size: 50px;
 	color: white;
 }
 /* custom styles */
@@ -44,7 +45,7 @@ body {
 	color: white;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	height: 50px;
-	font-family: 'Baloo Bhaina', cursive;
+	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 
 }
@@ -108,16 +109,16 @@ li a {
 
 }
 
-.skill {
+.profile {
 	display: inline-block;
 	margin-top: 250px;
 	font-size: 30px;
 }
 
 .skill-img {
-	margin-top: -300px;
-	margin-right: 100px;
-	display: inline-block;
+	margin-top: 100px;
+
+display: inline-block;
 }
 
 // third page
@@ -176,8 +177,8 @@ li a {
 }
 
 .mywork {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 	width: 250px;
 }
 
@@ -200,4 +201,45 @@ hr {
 	width: 55%;
 	margin-left: 0;
 	margin-top: 8px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+}
+
+.aboutme {
+	margin-top: 200px;
+}
+
+.card {
+	width: 75%;
+    margin-top: -100px;
+    margin-left: 40px;
+		background: white;
+    border-radius: 15px;
+}
+
+h4 {
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+.card-title {
+	text-align: center;
+	margin-top: -4px;
+}
+.card-text {
+	font-size: 17px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: 5%;
+	width: 90%;
+}
+
+.card-img-top {
+	margin-top: -80px;
+}
+
+a h2 {
+	color: white;
 }

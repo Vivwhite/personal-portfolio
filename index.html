@@ -21,7 +21,7 @@
     <!-- favicon -->
     <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Archivo+Black|Baloo+Bhaina|Bowlby+One|Concert+One|Passion+One|Righteous|Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900|Archivo+Black|Bowlby+One|Concert+One|Passion+One|Righteous|Shrikhand" rel="stylesheet">
   </head>
 
   <body>
@@ -30,18 +30,18 @@
         <div>
           <ul class="nav navbar-nav pull-right">
             <!-- <li><a href="#">About</a></li> -->
-            <li><a href="#secondpage">Skills</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#secondpage">About</a></li>
             <li><a href="#thirdpage">Project</a></li>
-            <li><a href="#">Message Me</a></li>
           </ul>
         </div>
       </nav>
     </header>
+  <div class="container-fluid">
+    <div class="parallax row">
 
-    <div class="parallax">
-
-
-      <div class="boxed">
+      <div class="col-md-3"></div>
+      <div class="col-md-6 aboutme">
         <div class="icons pull-center">
           <a  href="https://www.linkedin.com/in/viviennewhite/"><img class="icon" src="assets/imgs/linkedin.png" alt=""></a>
           <a  href="https://github.com/Vivwhite"><img class="icon" src="assets/imgs/github.png" alt=""></a>
@@ -50,7 +50,9 @@
         <h1 id="enlarge">Vivienne White</h1>
         <img class="developer" src="assets/imgs/developer.png" alt="">
       </div>
-      <div class="arrow file:///Users/vivi/Desktop/wdi/vivwhite.github.io/index.html">
+      <div class="col-md-3"></div>
+      <br>
+      <div class="arrow col-md-12">
       <a href="#secondpage">
         <img class="scroll animated fadeInDown" src="assets/imgs/arrow.png" alt="">
       </a>
@@ -58,11 +60,19 @@
     </div>
     <!-- secondpage -->
     <div class="secondpage row" id="secondpage">
-      <div class="col-md-6 skill pull-left" >
-        <h1>MY SKILLS:</h1>
+      <div class="col-md-6  profile" >
+        <div class="card pull-right">
+          <img class="card-img-top" src="assets/imgs/profileimg1.png" alt="Card image cap">
+          <div class="card-block">
+            <h2 class="card-title">About Me</h2>
+            <p class="card-text">I’m a frontend developer who’s enthusiastic about crafting elegant product experiences with a strong eye for aesthetic design. My passion includes researching and learning new technologies and tools, as well as finding the joy in solving problems. I bring project management skills,  passion for innovation, and a mindset of efficiency and creativity.</p>
+          </div>
+        </div>
+
+        <!-- <img class="profilepic" src="assets/imgs/profileimg1.png" alt=""> -->
       </div>
       <div class="col-md-6 skill-img pull-right">
-        <img src="assets/imgs/skillset.png" alt="">
+        <img src="assets/imgs/skillset1.png" alt="">
       </div>
 
     </div>
@@ -71,24 +81,37 @@
     <div class="thirdpage row parallax" id="thirdpage">
       <div class="project-container">
         <img class="mywork" src="assets/imgs/mywork.png" alt="">
+
         <div class="col-md-6 hoverable">
           <img class="pimage image" src="assets/imgs/timeshare.jpg">
           <div class="middle">
             <div class="text">
-              <h2>TIMESHARE</h2><hr>
+              <a href="https://timeshare-atx.herokuapp.com/">
+                <h2>TIMESHARE</h2><hr>
+              </a>
               <p>A web app that allows people to post content that captures meaningful moments in their lives .</p>
               <p class="tech-used">Technology used: Bootstrap, React, Node.js, MongoDB, Heroku</p>
             </div>
           </div>
         </div>
+
         <div class="col-md-6 hoverable">
           <img class="pimage image" src="assets/imgs/tictactoe.png">
+          <div class="middle">
+            <div class="text">
+              <a href="http://tic-tac-meow.bitballoon.com/">
+                <h2>TIC TAC MEOW</h2><hr>
+              </a>
+              <p>A tec tac toe game built with HTML, CSS and Javascript.</p>
+              <p class="tech-used">Technology used: HTML, CSS, Bootstrap, javascript </p>
+            </div>
+          </div>
         </div>
       </div>
       </div>
 
     </div>
-
+  <div>
   </body>
 
 </html>
